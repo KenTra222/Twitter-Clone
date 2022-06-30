@@ -1,0 +1,48 @@
+$primary-color: orange;
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  padding: 4rem 0;
+
+}
+
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.posts{
+  list-style: none;
+  padding: 0;
+  margin: 5em 0;
+
+  li{
+    margin-bottom: 3em;
+    
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  p{
+    &:first-child{
+      margin-top: 0;
+    }
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+
