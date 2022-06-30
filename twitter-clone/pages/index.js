@@ -18,7 +18,7 @@ export default function Home() {
 
        <ul className={styles.posts}>
           <li>
-            <p>
+            <p className={styles.postContent}>
              I’m working in Figma trying to design a new website that shows all of my tweets
             </p>
             <p>
