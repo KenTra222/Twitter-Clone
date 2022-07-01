@@ -29,6 +29,8 @@
     "babel-loader": "^8.2.5",
     "eslint": "8.18.0",
     "eslint-config-next": "12.2.0",
-    "eslint-plugin-storybook": "^0.5.13"
+    "eslint-plugin-storybook": "^0.5.13",
+    "sass-loader": "10.1.1",
+    "storybook-addon-sass-postcss": "^0.1.3"
   }
 }
