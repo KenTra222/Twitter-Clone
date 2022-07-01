@@ -21,29 +21,34 @@ export default function Home() {
             <p className={styles.postContent}>
              I’m working in Figma trying to design a new website that shows all of my tweets
             </p>
-            <p>
+            <p className={styles.postTime}>
              6/29/2022 
             </p>
           </li>
 
           <li>
-            <p>
+            <p className={styles.postContent}>
              I’m working in Figma trying to design a new website that shows all of my tweets
             </p>
-            <p>
+            <p className={styles.postTime} >
              6/29/2022 
             </p>
           </li>
 
           <li>
-            <p>
+            <p className={styles.postContent}>
              I’m working in Figma trying to design a new website that shows all of my tweets
             </p>
-            <p>
+            <p className={styles.postTime}>
              6/29/2022 
             </p>
           </li>
        </ul>
+
+       <form>
+        <textarea className={styles.formContent}></textarea>
+        <button className={styles.formButton}>Add New Tweet</button>
+       </form>
       </main>
 
  
