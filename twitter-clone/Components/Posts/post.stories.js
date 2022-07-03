@@ -4,12 +4,15 @@ import Post from './Post';
 
 
 export default {
-  title: 'Example/Post',
+  title: 'Components/Post',
   component: Post,
 };
 
 
-const Template = (args) => <Post {...args} />;
+const Template = () => <Post
+content='hey i am a new post on the phone right now' 
+time='222'
+ />;
 
 export const Default = Template.bind({});
 
