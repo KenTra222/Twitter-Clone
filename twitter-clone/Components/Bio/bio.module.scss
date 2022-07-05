@@ -1,11 +1,19 @@
-//.Bio{}
+.Bio{
+    display: flex;
+}
 
-//.bioImage{}
+.bioImage{
+    img{
+        width: 16em;
+        height: 16em;
+        border-radius: 50%;
+    }
+}
 
 //.bioContent{}
 
 .bioContentName{
-   
+    margin-top: 0;
     font-weight: 900;
     font-size: 48px;
     line-height: 60px;

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Post from '../Components/Posts/Post'
 import PostForm from '../Components/PostForm/PostForm'
 
+
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
