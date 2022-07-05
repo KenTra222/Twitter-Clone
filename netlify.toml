@@ -1,0 +1,5 @@
+
+[build]
+  base = "/site/"
+  publish = ".next"
+  command = "npm run build"
