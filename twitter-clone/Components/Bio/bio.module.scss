@@ -7,20 +7,27 @@
         width: 16em;
         height: 16em;
         border-radius: 50%;
+        margin-right: 3em;
     }
 }
 
-//.bioContent{}
+.bioContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .bioContentName{
-    margin-top: 0;
+    color: #306989;
+    margin: 0;
     font-weight: 900;
     font-size: 48px;
     line-height: 60px;
 }
 
 .bioContentTagline{
-  
+    margin-top: .2em ;
+    margin-bottom: .4em;
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
@@ -32,4 +39,5 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+    margin: 0%;
 }

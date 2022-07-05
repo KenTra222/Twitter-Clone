@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Post from '../Components/Posts/Post'
 import PostForm from '../Components/PostForm/PostForm'
-
+import Bio from '../Components/Bio/Bio'
 
 import styles from '../styles/Home.module.scss'
 
@@ -19,9 +19,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-       <h1 className={styles.title}>
-        My Posts
-       </h1>
+      <Bio
+        headshot='https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
+        name='Fatima Smith'
+        tagline='Changing lives and heads one run way at a time!'
+        role='Model x Philanthropist'
+        />;
 
        <ul className={styles.posts}>
           <li>
