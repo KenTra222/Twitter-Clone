@@ -10,8 +10,8 @@ export default {
 
 
 const Template = () => <Post
-content='hey i am a new post on the phone right now' 
-time='222'
+content='hey i am a new post being created through figma and next js '
+time='2/22/2022'
  />;
 
 export const Default = Template.bind({});

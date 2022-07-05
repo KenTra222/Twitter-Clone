@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Post from '../Components/Posts/Post'
-import PostForm from '../Components/Posts/PostForm/PostForm'
+import PostForm from '../Components/PostForm/PostForm'
 
 import styles from '../styles/Home.module.scss'
 
@@ -26,19 +26,19 @@ export default function Home() {
           <li>
             <Post 
               content='hey i am a new post on the phone right now' 
-              time='222'/>
+              time='2/22/2022'/>
           </li>
 
           <li>
             <Post 
               content='hey i am a new post' 
-              time='222'/>
+              time='2/26/2022'/>
           </li>
 
           <li>
             <Post
               content='hey i am a new post' 
-              time='222'/>
+              time='2/30/2022'/>
           </li>
        </ul>
 

@@ -1,7 +1,5 @@
 module.exports = {
   "stories": [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)",
     "../Components/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
@@ -9,7 +7,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     '@storybook/addon-a11y',
-    '@storybook/preset-scss'
+    '@storybook/preset-scss',
+    '@storybook-addon-sass-postcss'
   ],
   "framework": "@storybook/react",
   "core": {

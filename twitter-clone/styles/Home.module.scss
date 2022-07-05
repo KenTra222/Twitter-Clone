@@ -34,7 +34,7 @@ $senary-color: #F5F8FA;
   padding: 0;
   margin: 5em 0;
 
-  li{
+  & > li{
     margin-bottom: 3em;
     
     &:last-child{
